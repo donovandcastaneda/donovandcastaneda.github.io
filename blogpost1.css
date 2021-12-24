@@ -1,0 +1,143 @@
+* {
+height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  position: absolute;
+  width: 407px;
+  height: 103px;
+  left: 44px;
+  top: 28px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 61px;
+
+  color: #ffffff;
+}
+h1:hover {
+  color: gray;
+}
+h2 {
+  position: absolute;
+  width: 945px;
+  height: 198px;
+  left: 71px;
+  top: 131px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 98px;
+
+  color: #ffffff;
+}
+h3 {
+  position: absolute;
+  width: 807px;
+  height: 38px;
+  left: 71px;
+  top: 338px;
+
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+p {
+  position: absolute;
+  width: 898px;
+  height: 606px;
+  left: 62px;
+  top: 383px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+img.one{
+position: absolute;
+width: 234px;
+height: 234px;
+left: 1263px;
+top: 116px;
+
+background: #C4C4C4;
+}
+h1.one{
+    position: absolute;
+    width: 216px;
+    height: 29px;
+    left: 1272px;
+    top: 356px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    
+    color: #FFFFFF; 
+}
+img.two{
+position: absolute;
+width: 234px;
+height: 234px;
+left: 1263px;
+top: 441px;
+
+background: #C4C4C4;
+}
+h1.two{
+position: absolute;
+width: 215px;
+height: 29px;
+left: 1263px;
+top: 681px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+img.three{
+position: absolute;
+width: 234px;
+height: 234px;
+left: 1263px;
+top: 768px;
+
+background: #C4C4C4;
+}
+h1.three{
+    position: absolute;
+    width: 215px;
+    height: 49px;
+    left: 1263px;
+    top: 1008px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    
+    color: #FFFFFF; 
+}

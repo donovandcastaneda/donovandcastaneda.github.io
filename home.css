@@ -1,0 +1,68 @@
+
+body.home{
+    background-image: url(img/mountain.jpg);
+    background-size:cover ;
+    background-repeat:no-repeat;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:auto;
+}
+h1{
+    position: absolute;
+    width: 826px;
+    height: 127px;
+    left: 46px;
+    top: 40px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc(60px);
+    line-height: 73px;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+div.heading {
+ color:rgba(255, 255, 255, 0.5);
+}
+
+hr {
+ position: absolute;
+width: 295.01px;
+height: 0px;
+left: 550px;
+top: 235px;
+border: 1px solid rgba(255, 255, 255, 0.5);
+transform: rotate(90.39deg);
+}
+
+
+ul{
+    float:right;
+}
+
+ li  {
+    font-size: 60px;
+    list-style: none;
+    float: left;
+}
+
+ a {
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 12px 30px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Montserrat;
+}
+
+a:hover{
+    color: white;
+}
+
+
+

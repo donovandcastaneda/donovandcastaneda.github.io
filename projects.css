@@ -1,0 +1,94 @@
+body.home{
+    background-color:black;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+nav{
+    text-align: center;
+   }
+   
+    li  {
+       font-size: 60px;
+       list-style: none;
+       display: inline; 
+       justify-content: center;
+   }
+   a {
+       display: inline-block;
+       line-height: 73px;
+       line-height: 100%;
+       color: rgba(255, 255, 255, 0.5);
+       padding: 12px 30px;
+       text-decoration: none;
+       font-style: normal;
+       font-weight: normal;
+       font-family: Montserrat;
+   }
+   
+   a:hover{
+   color: white;
+   }
+
+   img.one {
+    position: absolute;
+    width: 374px;
+    height: 363px;
+    left: 308px;
+    top: 196px;
+   }
+
+   img.two{
+    position: absolute;
+    width: 374px;
+    height: 363px;
+    left: 748px;
+    top: 196px;
+   }
+
+   img.three{
+    position: absolute;
+    width: 374px;
+    height: 363px;
+    left: 1188px;
+    top: 196px;
+   }
+
+   img.four{
+    position: absolute;
+    width: 374px;
+    height: 363px;
+    left: 300px;
+    top: 624px;
+    }
+
+    img.five{  
+     position: absolute;
+    width: 374px;
+    height: 363px;
+    left: 750px;
+    top: 624px;
+     }
+     img.six{
+        position: absolute;
+        width: 374px;
+        height: 363px;
+        left: 1188px;
+        top: 624px;
+     }
+
+    h1{
+        position: absolute;
+        width: 297px;
+        height: 34px;
+        left: 578px;
+        top: 194px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 37px;
+        
+        color: #FFFFFF;    
+    }

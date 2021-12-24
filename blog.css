@@ -1,0 +1,401 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body.home {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  text-align: center;
+}
+
+li {
+  font-size: 60px;
+  list-style: none;
+  display: inline;
+  justify-content: center;
+}
+
+a {
+  display: inline-block;
+  line-height: 73px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 12px 30px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-family: Montserrat;
+}
+a:hover {
+  color: white;
+}
+
+img.one {
+  position: absolute;
+  width: 267px;
+  height: 239px;
+  left: 280px;
+  top: 200px;
+}
+
+img.two {
+  position: absolute;
+  width: 267px;
+  height: 239px;
+  left: 978px;
+  top: 200px;
+}
+
+img.three {
+  position: absolute;
+  width: 267px;
+  height: 236px;
+  left: 280px;
+  top: 490px;
+}
+
+img.four {
+  position: absolute;
+  width: 267px;
+  height: 236px;
+  left: 978px;
+  top: 490px;
+}
+
+img.five {
+  position: absolute;
+  width: 267px;
+  height: 231px;
+  left: 280px;
+  top: 780px;
+}
+img.six {
+  position: absolute;
+  width: 267px;
+  height: 231px;
+  left: 978px;
+  top: 780px;
+}
+
+h1.one {
+  position: absolute;
+  width: 297px;
+  height: 30px;
+  left: 578px;
+  top: 195px;
+  white-space: nowrap;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+p.one {
+  position: absolute;
+  width: 282px;
+  height: 163px;
+  left: 578px;
+  top: 242px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+h2.one {
+  position: absolute;
+  width: 232px;
+  height: 26px;
+  left: 578px;
+  top: 404px;
+
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+h2.one:hover {
+  color: gray;
+}
+
+h1.two {
+  position: absolute;
+  width: 297px;
+  height: 30px;
+  left: 1276px;
+  top: 195px;
+  white-space: nowrap;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+p.two {
+  position: absolute;
+  width: 282px;
+  height: 163px;
+  left: 1276px;
+  top: 242px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+h2.two {
+  position: absolute;
+  width: 232px;
+  height: 26px;
+  left: 1276px;
+  top: 404px;
+
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+h2.two:hover {
+  color: gray;
+}
+
+h1.three {
+  position: absolute;
+  width: 297px;
+  height: 30px;
+  left: 578px;
+  top: 484px;
+  white-space: nowrap;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+p.three {
+  position: absolute;
+  width: 282px;
+  height: 163px;
+  left: 578px;
+  top: 528px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+h2.three {
+  position: absolute;
+  width: 232px;
+  height: 26px;
+  left: 578px;
+  top: 691px;
+
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+h2.three:hover {
+  color: gray;
+}
+
+h1.four {
+  position: absolute;
+  width: 297px;
+  height: 30px;
+  left: 1276px;
+  top: 484px;
+  white-space: nowrap;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+p.four {
+  position: absolute;
+  width: 282px;
+  height: 163px;
+  left: 1276px;
+  top: 528px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+h2.four {
+  position: absolute;
+  width: 232px;
+  height: 26px;
+  left: 1276px;
+  top: 691px;
+
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+h2.four:hover {
+  color: gray;
+}
+
+h1.five {
+  position: absolute;
+  width: 297px;
+  height: 30px;
+  left: 578px;
+  top: 788px;
+  white-space: nowrap;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+p.five {
+  position: absolute;
+  width: 282px;
+  height: 163px;
+  left: 578px;
+  top: 822px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+h2.five {
+  position: absolute;
+  width: 232px;
+  height: 26px;
+  left: 578px;
+  top: 972px;
+
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+h2.five:hover {
+  color: gray;
+}
+
+h1.six {
+  position: absolute;
+  width: 297px;
+  height: 30px;
+  left: 1282px;
+  top: 788px;
+  white-space: nowrap;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+p.six {
+  position: absolute;
+  width: 282px;
+  height: 163px;
+  left: 1282px;
+  top: 822px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+h2.six {
+  position: absolute;
+  width: 232px;
+  height: 26px;
+  left: 1282px;
+  top: 972px;
+
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+h2.six:hover {
+  color: gray;
+}
