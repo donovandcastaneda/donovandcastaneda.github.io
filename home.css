@@ -1,107 +1,112 @@
+html{
 
-body.home{
-    background-image: url(img/mountain.jpg);
-    background-size:cover ;
-    background-repeat:no-repeat;
-    margin: 0;
-    padding: 0;
-    width:100%;
-    height:auto;
 }
-h1{
-    position: absolute;
-    width: 826px;
-    height: 127px;
-    left: 46px;
-    top: 40px;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: calc(60px);
-    line-height: 73px;
-    color: #FFFFFF;
-    border: 1px solid #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+body.home {
+  background-image: url(img/mountain.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  
+}
+h1 {
+  position: absolute;
+  width: 826px;
+  height: 127px;
+  left: 46px;
+  top: 40px;
+ margin: 0%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(60px);
+  line-height: 73px;
+  color: #ffffff;
+  border: 0;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 div.heading {
- color:rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 hr {
- position: absolute;
-width: 295.01px;
-height: 0px;
-left: 550px;
-top: 235px;
-border: 1px solid rgba(255, 255, 255, 0.5);
-transform: rotate(90.39deg);
+  position: absolute;
+  width: 295.01px;
+  height: 0px;
+  left: 550px;
+  top: 235px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transform: rotate(90.39deg);
 }
 
-
-ul{
-    float:right;
+ul {
+  float: right;
 }
 
- li  {
-    font-size: 60px;
-    list-style: none;
-    float: left;
+li {
+  font-size: 60px;
+  list-style: none;
+  float: left;
 }
 
- a {
-    line-height: 30px;
-    color: rgba(255, 255, 255, 0.5);
-    padding: 12px 30px;
-    text-decoration: none;
+a {
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 12px 30px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-family: Montserrat;
+}
+
+a:hover {
+  color: white;
+}
+
+@media (max-width: 1024px) 
+{
+  body.home {
+    background-image:url(img/mountain.jpg);
+    height: 100%;
+
+
+  }
+  h1 {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 23px;
+    top: 103px;
+
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-family: Montserrat;
-}
+    font-size: 30px;
+    line-height: 37px;
 
-a:hover{
-    color: white;
-}
+    color: #ffffff;
 
-@media (max-width:1024px)
-{
-    body.home{
-        background-color: #080808;
-    }
-    h1{
-        position: absolute;
-        width: 336px;
-        height: 110px;
-        left: 23px;
-        top: 103px;
-        
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 30px;
-        line-height: 37px;
-        
-        color: #FFFFFF;
-        
-        border: 1px solid #000000;  
-    }
-    hr{
-        position: absolute;
+    border: 0;
+  }
+  hr {
+    position: absolute;
     width: 200px;
     height: 0px;
     left: 260px;
     top: 200px;
     border: 1px solid rgba(255, 255, 255, 0.5);
     transform: rotate(90.39deg);
-}
+  }
 
+    ul {
+  float: center;
     }
-    ul{
-        float:center;
+    li {
+  font-size: 25px;
+  list-style: none;
     }
-    li  {
-        font-size: 25px;
-        list-style: none;
-        
 }

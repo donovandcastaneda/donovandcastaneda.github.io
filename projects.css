@@ -92,3 +92,15 @@ nav{
         
         color: #FFFFFF;    
     }
+
+    @media (max-width:1024px)
+    {
+    }
+    ul{
+        float:center;
+    }
+    li  {
+        font-size: 30px;
+        list-style: none;
+        
+    }
