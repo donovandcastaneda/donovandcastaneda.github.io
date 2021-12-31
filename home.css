@@ -70,7 +70,7 @@ a:hover {
   color: white;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   body.home {
     background-image: url(img/mountain.jpg);
     height: 100%;
@@ -103,6 +103,7 @@ li {
   list-style: none;
 }
 a {
+  white-space: nowrap;
   line-height: 70px;
   color: rgba(255, 255, 255, 0.5);
   padding: 12px 30px;
@@ -151,7 +152,7 @@ a {
   a {
     line-height: 80px;
     color: rgba(255, 255, 255, 0.5);
-    padding: 12px 30px;
+    padding: 12px 12px;
     text-decoration: none;
 
     font-style: normal;
