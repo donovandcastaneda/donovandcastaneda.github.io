@@ -1,90 +1,170 @@
-*{
-    background-color: black;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} 
-header{
-    display: flex;
-    justify-content: space-between;
+* {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*navbar*/
 
-nav{
- text-align: center;
+nav {
+  text-align: center;
 }
 
- li  {
-    font-size: 60px;
-    list-style: none;
-    display: inline; 
-    justify-content: center;
+li {
+  font-size: 60px;
+  list-style: none;
+  display: inline;
+  justify-content: center;
 }
 a {
-    display: inline-block;
-    line-height: 73px;
-    line-height: 100%;
-    color: rgba(255, 255, 255, 0.5);
-    padding: 12px 30px;
-    text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    font-family: Montserrat;
+  display: inline-block;
+  line-height: 73px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 12px 30px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-family: Montserrat;
 }
 
-a:hover{
-color: white;
+a:hover {
+  color: white;
 }
-.nav a.active{
-    background: green;
+.nav a.active {
+  background: green;
 }
 /*icons*/
 
 #js {
+  position: absolute;
+  width: 256px;
+  height: 266px;
+  left: 380px;
+  top: 242px;
+  background: url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#html {
+  position: absolute;
+  width: 256px;
+  height: 256px;
+  left: 820px;
+  top: 247px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#css {
+  position: absolute;
+  width: 256px;
+  height: 256px;
+  left: 1250px;
+  top: 247px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+#figma {
+  position: absolute;
+  width: 278px;
+  height: 285px;
+  left: 365px;
+  top: 600px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#ps {
+  position: absolute;
+  width: 250px;
+  height: 255px;
+  left: 832px;
+  top: 615px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+  nav {
+    margin-top: 35px;
+  }
+  ul {
+    text-align: center;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    display: inline;
+    justify-content: center;
+  }
+
+  a {
+    display: inline-block;
+    line-height: 1.8em;
+
+    color: rgba(255, 255, 255, 0.5);
+    padding: 5px 5px;
+
+    white-space: nowrap;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Montserrat;
+    font-size: 19px;
+    line-height: 23px;
+  }
+  #js {
     position: absolute;
-    width: 256px;
-    height: 266px;
-    left: 380px;
-    top: 242px;
+    width: 125px;
+    height: 125px;
+    left: 32px;
+    top: 155px;
     background: url(image.png);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-#html{   
-position: absolute;
-width: 256px;
-height: 256px;
-left: 820px;
-top: 247px;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-#css{
-position: absolute;
-width: 256px;
-height: 256px;
-left: 1250px;
-top: 247px;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-
-#figma{
-    position: absolute;
-    width: 278px;
-    height: 285px;
-    left: 365px;
-    top: 600px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
+  }
 
-#ps{
+  #html {
     position: absolute;
-    width: 250px;
-    height: 255px;
-    left: 832px;
-    top: 615px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));   
-}
+    width: 125px;
+    height: 125px;
+    left: 233px;
+    top: 155px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
 
+  #css {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    left: 32px;
+    top: 350px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  #figma {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    left: 233px;
+    top: 350px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  #ps {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    left: 32px;
+    top: 545px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+}
