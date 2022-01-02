@@ -400,3 +400,209 @@ h2.six:hover {
   color: gray;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+  nav {
+    margin-top: 10px;
+  }
+  ul {
+    text-align: center;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    display: inline;
+    justify-content: center;
+  }
+
+  a {
+    display: inline-block;
+    line-height: 1.8em;
+
+    color: rgba(255, 255, 255, 0.5);
+    padding: 5px 5px;
+
+    white-space: nowrap;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Montserrat;
+    font-size: 19px;
+    line-height: 23px;
+  }
+
+  h1.two,p.two,h2.two,img.two{
+    display: none;
+  }
+  h1.four,p.four,h2.four,img.four{
+    display: none;
+  }
+  h1.six,p.six,h2.six,img.six{
+    display: none;
+  }
+  
+  img.one{
+    position: absolute;
+width: 151px;
+height: 146px;
+left: 26px;
+top: 136px;
+  }
+  h1.one{
+    position: absolute;
+width: 163px;
+height: 21px;
+left: 195px;
+top: 140px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+  }
+  p.one{
+    position: absolute;
+width: 155px;
+height: 109px;
+left: 195px;
+top: 161px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+color: #FFFFFF;
+  }
+h2.one{
+  position: absolute;
+width: 127px;
+height: 16px;
+left: 195px;
+top: 262px;
+
+font-family: Montserrat;
+font-style: italic;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+
+color: #FFFFFF;
+}
+img.three{
+  
+position: absolute;
+width: 151px;
+height: 146px;
+left: 26px;
+top: 332px;
+}
+h1.three{
+  position: absolute;
+width: 163px;
+height: 21px;
+left: 195px;
+top: 336px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+}
+p.three{
+  position: absolute;
+width: 155px;
+height: 109px;
+left: 195px;
+top: 357px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+}
+h2.three{
+  position: absolute;
+width: 127px;
+height: 16px;
+left: 195px;
+top: 458px;
+
+font-family: Montserrat;
+font-style: italic;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+
+color: #FFFFFF;
+}
+img.five{
+  position: absolute;
+  width: 151px;
+  height: 146px;
+  left: 26px;
+  top: 528px;
+  
+}
+h1.five{
+  position: absolute;
+width: 163px;
+height: 21px;
+left: 195px;
+top: 532px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+}
+p.five{
+  
+position: absolute;
+width: 155px;
+height: 109px;
+left: 195px;
+top: 553px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+color: #FFFFFF
+
+}
+h2.five{
+  position: absolute;
+width: 127px;
+height: 16px;
+left: 195px;
+top: 654px;
+
+font-family: Montserrat;
+font-style: italic;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+
+color: #FFFFFF;
+}
+}
