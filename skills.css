@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(fonts/montserat/Montserrat-Regular.ttf);
+}
 * {
   background-color: black;
   margin: 0;

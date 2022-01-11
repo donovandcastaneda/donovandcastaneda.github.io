@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(fonts/montserat/Montserrat-Regular.ttf);
+}
 body.home{
     background-image: url(img/desert.jpg);
     background-size: cover;
